@@ -1,6 +1,12 @@
 # Todo
 ## Usages 
-* Pure / Bootstrap
+* Bootstrap
+* jQuery
+* Not decided
+ * AngularJS
+ * Knockout
 
-## Notes
+## References / Help
+http://todomvc.com/
+
 https://github.com/sindresorhus/awesome/blob/master/readme.md
