@@ -1,28 +1,16 @@
 /* INDEX.html */
-html {
-    height:100%;
+.forest {
+    background-image: url('../res/forest.jpg');
+    background-size: cover;
+    
+    background-attachment: fixed;
 }
 
-body {
-    margin-top:20px;
-    background-color: #3CACD4;
+.bgoverlay {
+    background-color:rgba(255,255,255,0.5);
 }
 
-body::after {
-    content:"";
-    background-image:url('../res/bgbeach.jpg');
-    background-size:cover;
-    background-position:50% 50%;
-    
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    
-    z-index:-100;
-    opacity:0.75;
-    
-    -webkit-filter: blur(5px);-moz-filter: blur(5px);-o-filter: blur(5px);-ms-filter: blur(5px);
-    filter: blur(5px);
+.headtitle {
+    color:white;
+    font-weight:500;
 }
