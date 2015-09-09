@@ -5,10 +5,11 @@
           <nav class="navbar-light bg-faded">
               <span class="navbar-brand">And3k5</span>
               <ul class="nav navbar-nav">
-                    {% for page in site.pages %}
-                      {% if page.title %}
-                      <li class="nav-item">
-                          <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    {% assign _pages = site.pages | sort:"order" %}
+                    {% for cpage in _pages %}
+                      {% if cpage.title %}
+                      <li class="nav-item{% if cpage.url == page.url %} active{% endif %}">
+                          <a class="nav-link" href="{{ cpage.url | prepend: site.baseurl }}">{{ cpage.title }}</a>
                       </li>
                       {% endif %}
                     {% endfor %}
