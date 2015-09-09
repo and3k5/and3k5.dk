@@ -2,7 +2,7 @@
 .forest {
     background-image: url('../res/forest.jpg');
     background-size: cover;
-    
+    min-height:250px;
     background-attachment: fixed;
 }
 
