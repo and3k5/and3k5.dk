@@ -4,6 +4,7 @@
     background-size: cover;
     min-height:250px;
     background-attachment: fixed;
+    transition:height 100ms, min-height 100ms;
 }
 
 .bgoverlay {
@@ -13,4 +14,16 @@
 .headtitle {
     color:white;
     font-weight:500;
+}
+
+@media (max-width: 62em) {
+    .navbar {
+        border-bottom:solid 1px #CECECE;
+    }
+    .forest {
+        height:0px;
+        min-height:0px;
+        margin:0px !important;
+        padding:0px !important;
+    }
 }
