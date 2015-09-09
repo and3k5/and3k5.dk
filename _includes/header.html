@@ -1,0 +1,27 @@
+<header class="site-header">
+    
+    <div class="navbar">
+      <div class="container">
+          <nav class="navbar-light bg-faded">
+              <span class="navbar-brand">And3k5</span>
+              <ul class="nav navbar-nav">
+                    {% for page in site.pages %}
+                      {% if page.title %}
+                      <li class="nav-item">
+                          <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                      </li>
+                      {% endif %}
+                    {% endfor %}
+                  
+                  
+              </ul>
+          </nav>
+      </div>
+    </div>
+    
+    <div class="jumbotron forest">
+      <div class="container">
+          <span class="display-4 headtitle">{{ site.title }}</span>
+      </div>
+    </div>
+</header>
