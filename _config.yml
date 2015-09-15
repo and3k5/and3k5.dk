@@ -4,6 +4,7 @@ description: >
   Anders Kjeldsen's personal website.
 baseurl: ""
 url: "http://and3k5.dk"
+owner: "Anders Kjeldsen"
 
 # Build settings
 markdown: kramdown
