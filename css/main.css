@@ -1,11 +1,14 @@
 /* INDEX.html */
 .forest {
-    background-image: url('../res/forest.jpg');
     background-size: cover;
     height:20vw;
     max-height:200px;
     background-attachment: fixed;
     margin-bottom:15px;
+}
+
+.site-title {
+    cursor:default;
 }
 
 .page-content {

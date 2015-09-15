@@ -2,7 +2,7 @@
     <div class="navbar">
       <div class="container">
           <nav class="navbar-light bg-faded">
-              <span class="navbar-brand">{{ site.title }}</span>
+              <span class="navbar-brand site-title">{{ site.title }}</span>
               <ul class="nav navbar-nav">
                     {% assign _pages = site.pages | sort:"order" %}
                     {% for cpage in _pages %}
@@ -17,5 +17,5 @@
       </div>
     </div>
     
-    <div class="container-fluid forest"></div>
+    <div class="container-fluid forest parallax-window" data-parallax="scroll" data-image-src="/res/forest.jpg"></div>
 </header>
