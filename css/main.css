@@ -34,7 +34,7 @@ body {
     padding-top:15px;
 }
 
-.page-content, site-footer {
+.page-content, .site-footer {
     box-shadow:0px 0px 1px 0px black;
 }
 
