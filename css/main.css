@@ -1,10 +1,27 @@
 /* INDEX.html */
+html {
+    height:100%;
+}
+
+body {
+    background: linear-gradient(to bottom,rgba(255, 255, 255, 0) 20%,rgba(109, 109, 109, 0.53)) fixed,url(/res/forest.jpg) fixed;
+    background-position-y: 100vh, 100vh;
+    background-size: cover;
+}
+
 .forest {
     background-size: cover;
     height:20vw;
     max-height:200px;
-    background-attachment: fixed;
-    margin-bottom:15px;
+    position:relative;
+    background:linear-gradient(to bottom,transparent 70%,rgba(255,255,255,0.5));
+}
+
+.forest>h1 {
+    text-shadow: 0px 0px 16px #000;
+    color:white;
+    position:absolute;
+    bottom:0px;
 }
 
 .site-title {
@@ -13,11 +30,18 @@
 
 .page-content {
     min-height:600px;
+    background-color:#fff;
+    padding-top:15px;
+}
+
+.page-content, site-footer {
+    box-shadow:0px 0px 1px 0px black;
 }
 
 .site-footer {
     border-top:1px solid #bbb;
     padding-top:5px;
+    background-color:#fff;
 }
 
 
