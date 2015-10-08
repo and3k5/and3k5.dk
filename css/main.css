@@ -44,7 +44,30 @@ body {
     background-color:#fff;
 }
 
+/* about.html */
 
+.profile-badge {
+    border:1px solid rgba(0,0,0,0.33);
+    width:273px;
+    position:relative;
+}
+
+.profile-badge .img {
+    display:inline-block;
+}
+
+.profile-badge .info {
+    display:inline-block;
+    position: absolute;
+    left:104px;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    font: normal 16px Roboto,arial,sans-serif;
+    padding-top: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
 
 /* FOOTER */
 @font-face {
