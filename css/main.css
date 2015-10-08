@@ -37,7 +37,7 @@ html {
 
 body {
     background: linear-gradient(to bottom,rgba(255, 255, 255, 0) 20%,rgba(109, 109, 109, 0.53)) fixed,url(/res/forest.jpg) fixed;
-    background-position-y: 100vh, 100vh;
+    background-position-y: 100%, 100%;
     background-size: cover;
 }
 
